@@ -1,0 +1,18 @@
+{
+  "name": "create-object-test",
+  "version": "1.0.0",
+  "description": "A benchmark test between Object.create vs new Function",
+  "main": "index.js",
+  "author": "Mactavish",
+  "license": "MIT",
+  "scripts": {
+    "test-node": "node ./index.js",
+    "test-browser": "parcel ./index.html --open"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.0"
+  }
+}
